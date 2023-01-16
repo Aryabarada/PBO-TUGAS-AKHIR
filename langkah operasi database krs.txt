@@ -1,0 +1,18 @@
+langkah pengoperasian 
+1. install database connector di plugin intelij idea
+2. download mysql connector jdbc driver link : https://dbschema.com/jdbc-driver/MySql.html
+3. masuk ke mysql, buat database dengan nama coursemanagement lalu import query sql nya
+4. di intelij sesudah install plugin, masuk ke db browser dengan cara pada menu bar 
+klik view > tool windows > db browser
+5. pada menu db browser klik tanda tambah hijau > mySQL
+pada kolom nama ubah jadi coursemanagement
+kolom deskripsi terserah
+authentication ubah jadi user only
+kolom user isi dengan, root
+
+--------------
+setelah download poin nomor 2
+import ke intelij dengan cara : 
+cari external libraries, klik kanan sampai ketemu bacaan open library settings, 
+lalu klik tambah, masukkan hasil download an tadi ke dalamnnya (ekstensi jar)
+selesai
